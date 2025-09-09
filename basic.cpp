@@ -41,9 +41,34 @@ int main(){
     // cin >> s1 >> s2;
     // cout<< s1 << " " << s2;
     /// Totake Entire Line
-    string str;
-    getline(cin,str);
-    cout<< "  "<< str; 
-    return 0;
-    
+    // string str;
+    // getline(cin,str)
+    // cout<< "  "<< str; 
+    // return 0;
+
+    /// char 
+    // char c;
+    //cin >> c;
+    //cout<<c;
+////// ---------------------------------------//////
+
+
+    // int age;
+    // cin>> age;
+    // if(age >=18){
+    // cout << "ADult";
+    // }else{
+    //     cout << "not an adult";
+    // }
+/////----------------------------------------/////
+
+// int arr[69];
+// char arrr[96];
+// cin >> arr [69];
+// cout<< arr[69];
+
+////----------    2D Arry--------------------/////
+int arr[3][3];
+
+
 }
