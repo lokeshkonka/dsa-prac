@@ -24,14 +24,30 @@
 //     cout<<"The value of y is :"<< y;
     
 //     //very long integer
-//     long long y;
+//     long long y;b
     
 // }
 
 //float for float
 #include<bits/stdc++.h>
 using namespace std;
+int sum(int num1 , int num2){
+    int num3 = num1+num2;
+    return num3;
+}
+//pass by value the org wiill send the copy not the org so 
+void dosome(int num){
+    cout << num << endl;
+    num+=5;
+    cout << num<< endl;
+}
 
+/// pass by reference: but arr are pass by refence only whether in pass by value
+ void dosome2(int &num){
+    cout << num << endl;
+    num+=5;
+    cout << num<< endl;
+}
 
 int main(){
     //string
@@ -70,5 +86,10 @@ int main(){
 ////----------    2D Arry--------------------/////
 int arr[3][3];
 
+sum(4,6);
+
+
+dosome(5);
+return 0;
 
 }

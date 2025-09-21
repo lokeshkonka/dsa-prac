@@ -1,0 +1,81 @@
+Time Complexity:
+
+Definition:
+Time complexity is a way to analyze how the running time of an algorithm increases as the size of the input increases. It does not measure the actual time taken, but rather the rate at which the time grows with respect to input size.
+
+Big O Notation:
+Big O notation (O()) is used to express the upper bound of the time complexity. It helps us understand the worst-case scenario for an algorithm.
+
+Example:
+for (i = 0; i < n; i++) {
+    cout << "Raj";
+}
+// This loop runs 'n' times, so the time complexity is O(n).
+
+Key Points:
+- Always analyze the worst-case time complexity.
+- Ignore constants and lower-order terms (e.g., O(2n + 5) becomes O(n)).
+- Focus on how the algorithm scales as input size increases.
+
+Types of Time Complexity Cases:
+1. Best Case: Minimum time taken (rarely used).
+2. Average Case: Expected time for a random input.
+3. Worst Case: Maximum time taken (most important for analysis).
+
+Summary Table:
+| Case        | Description                        |
+|-------------|------------------------------------|
+| Best Case   | Fastest scenario                   |
+| Average Case| Typical scenario                   |
+| Worst Case  | Slowest scenario (analyze this)    |
+
+Tips for Revision:
+- Remember: Time complexity is about growth rate, not actual time.
+- Use Big O for worst-case analysis.
+- Ignore constants and lower-order terms.
+- Practice analyzing simple loops and nested loops.
+Theta (Θ) Notation:
+Theta notation (Θ()) represents the tight bound of an algorithm's time complexity. It gives both the upper and lower bounds, meaning the running time grows at the same rate for both the best and worst cases.
+
+Example:
+If an algorithm always takes exactly n steps, its time complexity is Θ(n).
+
+Omega (Ω) Notation:
+Omega notation (Ω()) expresses the lower bound of the time complexity. It tells us the minimum time an algorithm will take for any input of size n.
+
+Example:
+If an algorithm takes at least n steps in the best case, its time complexity is Ω(n).
+
+Summary Table (Extended):
+| Notation | Meaning                       | Use Case                |
+|----------|-------------------------------|-------------------------|
+| O()      | Upper bound (worst case)      | Maximum time            |
+| Θ()      | Tight bound (average case)    | Exact growth rate       |
+| Ω()      | Lower bound (best case)       | Minimum time            |
+
+Space Complexity:
+
+Definition:
+Space complexity measures the total amount of memory an algorithm needs to run to completion, as a function of the input size.
+
+Components:
+- Input Space: Memory required to store the input data.
+- Auxiliary Space: Extra memory used by the algorithm (excluding input space).
+
+Big O Notation:
+Space complexity is also expressed using Big O notation (e.g., O(n), O(1)).
+
+Key Points:
+- Do not modify or tamper with the input data, especially in professional environments.
+- Aim to minimize auxiliary space usage.
+
+Competitive Programming Note:
+- Online judges (like LeetCode, GFG) often have a time limit of about 1 second, which allows roughly 10^8 operations.
+- Always consider both time and space limits when designing solutions.
+
+Tips for Revision:
+- Space complexity = Input space + Auxiliary space.
+- Try to write algorithms with lower space complexity.
+- Remember: O(1) means constant extra space, O(n) means space grows linearly with input size.
+
+
