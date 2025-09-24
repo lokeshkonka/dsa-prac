@@ -52,7 +52,7 @@ Summary Table (Extended):
 | O()      | Upper bound (worst case)      | Maximum time            |
 | Θ()      | Tight bound (average case)    | Exact growth rate       |
 | Ω()      | Lower bound (best case)       | Minimum time            |
-
+tiu
 Space Complexity:
 
 Definition:
